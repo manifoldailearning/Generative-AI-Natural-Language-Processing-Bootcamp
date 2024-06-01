@@ -1,0 +1,51 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: creator path
+  steps:
+  - intent: who_creator
+  - action: utter_creator
+
+- story: user identification
+  steps:
+  - intent: get_username
+  - action: utter_welcome
+  
+- story: run example action
+  steps:
+  - intent: get_action
+  - action: action_hello_world
+
+- story: get news from nytimes
+  steps:
+  - intent: get_news
+  - action: action_get_news
+  

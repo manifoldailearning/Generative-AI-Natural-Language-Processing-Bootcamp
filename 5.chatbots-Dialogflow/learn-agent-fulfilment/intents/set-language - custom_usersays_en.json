@@ -1,0 +1,52 @@
+[
+  {
+    "id": "70d9b95e-6dc8-4b5c-bcdb-ee0826fb6523",
+    "data": [
+      {
+        "text": "for ",
+        "userDefined": false
+      },
+      {
+        "text": "5 years",
+        "alias": "duration",
+        "meta": "@sys.duration",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8ddce67e-ac5c-46d7-bc77-da5713ce8e42",
+    "data": [
+      {
+        "text": "about ",
+        "userDefined": false
+      },
+      {
+        "text": "4 days",
+        "alias": "duration",
+        "meta": "@sys.duration",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7bc5809d-65d3-44a5-a790-ced8aacbc904",
+    "data": [
+      {
+        "text": "3 years",
+        "alias": "duration",
+        "meta": "@sys.duration",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

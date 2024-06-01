@@ -1,0 +1,69 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - who_creator
+  - get_username
+  - get_action
+  - get_news
+
+entities:
+  - PERSON
+  - news_category
+
+slots:
+  PERSON:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: PERSON
+
+  news_category:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: news_category
+
+actions:
+  - action_hello_world
+  - action_get_news
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_creator:
+  - text: "My owner is a Data Scientist of Manifold AI Learnig"
+  - text: "I am created by a learner in Data Science of Manifold AI Learning"
+  - text: "I am a student of Manifold AI Learning"
+
+  utter_welcome:
+  - text: Welcome dear {PERSON}
+  - text: Thats a very nice name {PERSON}, nice to meet you
+  - text: Wow!! good to know you {PERSON}
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

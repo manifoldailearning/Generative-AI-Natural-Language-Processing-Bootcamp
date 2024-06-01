@@ -1,0 +1,92 @@
+[
+  {
+    "id": "4fd1b391-21a8-484e-8e99-6779dec47456",
+    "data": [
+      {
+        "text": "I know how to code in ",
+        "userDefined": false
+      },
+      {
+        "text": "Java",
+        "alias": "language-programming",
+        "meta": "@language-programming",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d2be6742-a524-4780-a768-1fda0b81eb13",
+    "data": [
+      {
+        "text": "I know ",
+        "userDefined": false
+      },
+      {
+        "text": "javascript",
+        "alias": "language-programming",
+        "meta": "@language-programming",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ef8d86ef-04ac-41c8-99b8-fa5187f6cbd4",
+    "data": [
+      {
+        "text": "I know how to write in ",
+        "userDefined": false
+      },
+      {
+        "text": "German",
+        "alias": "language",
+        "meta": "@sys.language",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0591548e-1f15-4406-9e41-a24f96239d22",
+    "data": [
+      {
+        "text": "I speak ",
+        "userDefined": false
+      },
+      {
+        "text": "French",
+        "alias": "language",
+        "meta": "@sys.language",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "80af9c31-d4a9-4069-800b-573b2db76878",
+    "data": [
+      {
+        "text": "I know ",
+        "userDefined": false
+      },
+      {
+        "text": "English",
+        "alias": "language",
+        "meta": "@sys.language",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

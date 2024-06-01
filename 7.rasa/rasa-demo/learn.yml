@@ -1,0 +1,20 @@
+---
+# YAML Aint Markup Language - config
+course : "nlp"
+duration: 25
+percentage: 95.5
+valid: true
+course: 'nlp'
+course: nlp
+
+curriculum:
+  - nlp
+  - preprocessing
+  - pipeline
+  - word embedding
+
+food: dosa
+      millet: ragi
+      grain: 
+        rice: 5
+        wheat: 7

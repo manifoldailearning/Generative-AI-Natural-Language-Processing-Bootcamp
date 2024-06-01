@@ -1,0 +1,49 @@
+{
+  "id": "9ed4d0f6-b005-4a70-a154-3cef9ec09f93",
+  "parentId": "fe45022f-e58a-484f-96e8-1cbd6628f648",
+  "rootParentId": "fe45022f-e58a-484f-96e8-1cbd6628f648",
+  "name": "set-language - custom",
+  "auto": true,
+  "contexts": [
+    "set-language-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "set-language.set-language-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "260d4d46-846b-41b8-8fba-d4aac39b61e1",
+          "required": false,
+          "dataType": "@sys.duration",
+          "name": "duration",
+          "value": "$duration",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "I can\u0027t believe you\u0027ve known #set-language-followup.language for $duration!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
